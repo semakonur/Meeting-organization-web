@@ -1,0 +1,263 @@
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+ 
+
+}
+
+a {
+  color: rgb(221, 218, 218);
+  text-decoration: none;
+  background-color: transparent;
+}
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container-fluid {
+  max-width: 1200px;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tm-bg-1 {
+  background-color:#87baef;
+}
+
+.tm-bg-2{
+  background-color: #91bae5;
+}
+
+.tm-bg-3 {
+  background-color:#99badd;
+}
+
+.tm-bg-dark-4 {
+  background-color:#91b1d3;
+}
+
+
+#intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background:black ; color: #FFF;
+}
+
+.tm-brand-container-outer {
+  margin-left: -750px;
+  margin-top:-700px;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+}
+
+.tm-brand-container {
+  padding: 80px 90px;
+}
+
+.tm-brand-name {
+  font-size: 100px;
+  font-family: 'Big Shoulders Stencil Text', cursive; 
+
+}
+
+.tm-brand-description {
+  font-size: 50;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  padding-left: 30% ;
+
+}
+
+.parallax-window {
+  min-height: 1100px;
+  background:rgb(29, 29, 201)
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+  color: black;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: white;
+  background-color: #986665;
+  padding: 80px 43px 70px;
+  height: 100%;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+#prt {
+  padding-top: 80px;
+  
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 60px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.LogInButton{
+background-color:slategrey;
+height: 70px;
+width: 120px;
+padding: 7px !important;
+position: relative;
+bottom: 475px;
+left: 1200px;
+border-radius: 5px;
+ 
+}
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+
